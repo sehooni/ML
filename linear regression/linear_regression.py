@@ -40,6 +40,6 @@ for epoch in range(nb_epochs + 1):
         params = list(model.parameters())
         W = params[0].item()
         b = params[1].item()
-        print('Epoch {:4d}/{} W: {:3f}, b: {:3f} Cost: {:6f}'.format(
+        print('Epoch {:4d}/{} W: {:.3f}, b: {:.3f} Cost: {:.6f}'.format(
             epoch, nb_epochs, W, b, cost.item()
         ))
