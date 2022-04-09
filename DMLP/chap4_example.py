@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 
 # 5. hidden layer가 3개인 DMLP
 # 5.2. 로지스틱 시그모이드의 출력을 구하시오.
-
 # U Matrix 정의
 u1 = np.array([
     [-0.3, 1.0, 1.2],
@@ -42,8 +41,6 @@ out_sig = sigmoid(np.matmul(u4, z3_sig))
 ## 결과값 출력
 print("활성함수로 로지스틱 시그모이드를 사용하였을 때의 출력값: o1={}, o2={}".format(out_sig[0],out_sig[1]))
 
-# ## 그래프화
-# plt.plot(out)
 
 # 5.3. ReLU의 출력을 구하시오.
 # Calculation the output when using ReLU function
@@ -102,4 +99,4 @@ out_new_relu = relu(np.matmul(u4, z3_new_relu))
 print('변경 전: 활성함수 시그모이드 사용하였을 때 오차: {}'.format(np.abs(0-out_relu[0]) + np.abs(1-out_relu[1])))
 print('변경 후: 활성함수 시그모이드 사용하였을 때 오차: {}'.format(np.abs(0-out_new_relu[0]) + np.abs(1-out_new_relu[1])))
 
-### 가중치를 줄이게 될 경우 오류(오차)가 더 증가함을 확인할 수 있다.
+# 가중치를 줄이게 될 경우, 오류(오차)가 더 증가함을 확인할 수 있다.
