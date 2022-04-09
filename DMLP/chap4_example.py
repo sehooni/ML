@@ -27,20 +27,17 @@ u4 = np.array([
 ## Define the function of Sigmoid
 def sigmoid(x):
     return 1/(1 + np.exp(-x))
-    # return expit(z)
 
 ## progressing the calculation
 x = np.array([1, 1, 0])
 z1_sig = sigmoid(np.matmul(u1, x))
 ### 바이어스 행렬에 추가
 z1_sig = np.insert(z1_sig, 0, 1)
-# print(z1_sig)
 z2_sig = sigmoid(np.matmul(u2, z1_sig))
 z2_sig = np.insert(z2_sig, 0 ,1)
 z3_sig = sigmoid(np.matmul(u3, z2_sig))
 z3_sig = np.insert(z3_sig, 0 ,1)
 out_sig = sigmoid(np.matmul(u4, z3_sig))
-# print(out)
 
 ## 결과값 출력
 print("활성함수로 로지스틱 시그모이드를 사용하였을 때의 출력값: o1={}, o2={}".format(out_sig[0],out_sig[1]))
