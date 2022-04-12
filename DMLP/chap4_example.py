@@ -1,6 +1,6 @@
-import numpy as np
 from scipy.special import expit
 import matplotlib.pyplot as plt
+import numpy as np
 
 # 5. hidden layer가 3개인 DMLP
 # 5.2. 로지스틱 시그모이드의 출력을 구하시오.
@@ -96,7 +96,7 @@ z3_new_relu = np.insert(z3_new_relu, 0, 1)
 out_new_relu = relu(np.matmul(u4, z3_new_relu))
 
 ## 오차 확인
-print('변경 전: 활성함수 시그모이드 사용하였을 때 오차: {}'.format(np.abs(0-out_relu[0]) + np.abs(1-out_relu[1])))
-print('변경 후: 활성함수 시그모이드 사용하였을 때 오차: {}'.format(np.abs(0-out_new_relu[0]) + np.abs(1-out_new_relu[1])))
+print('변경 전: 활성함수 ReLU 사용하였을 때 오차: {}'.format(np.abs(0-out_relu[0]) + np.abs(1-out_relu[1])))
+print('변경 후: 활성함수 ReLU 사용하였을 때 오차: {}'.format(np.abs(0-out_new_relu[0]) + np.abs(1-out_new_relu[1])))
 
 # 가중치를 줄이게 될 경우, 오류(오차)가 더 증가함을 확인할 수 있다.
