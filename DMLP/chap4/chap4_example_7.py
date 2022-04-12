@@ -1,5 +1,3 @@
-
-
 # 7. [그림 4-14]에서 나머지 8개 화소의 값을 계산하시오.
 import numpy as np
 import tensorflow as tf
