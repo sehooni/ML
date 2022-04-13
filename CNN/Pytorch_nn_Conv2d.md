@@ -62,4 +62,4 @@ input shape : (N * C * H * W)
                         64 * 32
 
 위 예제들을 pytorch를 이용하여 계산할 수 있다.
-<Pytorch_nn_Conv2d.py>[https://github.com/sehooni/ML-Pytorch/blob/master/CNN/Pytorch_nn_Conv2d.py]에서 확인 가능하다.
+[Pytorch_nn_Conv2d.py]<https://github.com/sehooni/ML-Pytorch/blob/master/CNN/Pytorch_nn_Conv2d.py>에서 확인 가능하다.
