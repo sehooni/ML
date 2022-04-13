@@ -17,4 +17,4 @@
     out.size()
     out2.size()
 
-이와 관련된 코드는 [example.py]()에서 확인할 수 있다.
+이와 관련된 코드는 [example.py](https://github.com/sehooni/ML-Pytorch/blob/master/CNN/CNN%20Implementation/example.py)에서 확인할 수 있다.
