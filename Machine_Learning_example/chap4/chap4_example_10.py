@@ -47,13 +47,13 @@ def forward():
 
     # max pooling 값 도출
     max_pool = tf.keras.layers.MaxPool2D(
-                pool_size=(2, 2), strides=1, padding='valid'
+                pool_size=(3, 3), strides=1, padding='valid'
     )
     max_pool = max_pool(output_3d)
 
     # average pooling 값 도출
     avg_pool = tf.keras.layers.AvgPool2D(
-                pool_size=(2, 2), strides=1, padding='valid'
+                pool_size=(3, 3), strides=1, padding='valid'
     )
     avg_pool = avg_pool(output_3d)
     return max_pool,\

@@ -2,7 +2,7 @@ from scipy.special import expit
 import matplotlib.pyplot as plt
 import numpy as np
 
-# 5. hidden layer가 3개인 DMLP
+# 5. hidden layer가 3개인 Machine_Learning_example
 # 5.2. 로지스틱 시그모이드의 출력을 구하시오.
 # U Matrix 정의
 u1 = np.array([
