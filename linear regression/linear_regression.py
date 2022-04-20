@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
+torch.manual_seed(22)   # 동일한 난수로 시드 고정
 class LinearRegressionModel(nn.Module):
     def __init__(self):
         super().__init__()
