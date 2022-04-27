@@ -1,0 +1,19 @@
+C:\Users\Sehooni\anaconda3\envs\201701013\python.exe "D:/딥러닝/201701013/Cross_Entropy & Softmax/train_CE_high.py"
+tensor([[0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.],
+        [0., 0., 0.]], requires_grad=True)
+tensor([0.], requires_grad=True)
+Epoch    0/1000 Cost: 1.098612
+Epoch  100/1000 Cost: 0.761050
+Epoch  200/1000 Cost: 0.689991
+Epoch  300/1000 Cost: 0.643229
+Epoch  400/1000 Cost: 0.604117
+Epoch  500/1000 Cost: 0.568255
+Epoch  600/1000 Cost: 0.533922
+Epoch  700/1000 Cost: 0.500291
+Epoch  800/1000 Cost: 0.466908
+Epoch  900/1000 Cost: 0.433507
+Epoch 1000/1000 Cost: 0.399962
+
+종료 코드 0(으)로 완료된 프로세스

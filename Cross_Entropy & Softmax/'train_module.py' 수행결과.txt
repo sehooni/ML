@@ -1,0 +1,25 @@
+C:\Users\Sehooni\anaconda3\envs\201701013\python.exe "D:/딥러닝/201701013/Cross_Entropy & Softmax/train_module.py"
+SoftmaxClassifierModel(
+  (linear): Linear(in_features=4, out_features=3, bias=True)
+)
+SoftmaxClassifierModel(
+  (linear): Linear(in_features=4, out_features=3, bias=True)
+)
+[Parameter containing:
+tensor([[ 0.0185,  0.1977,  0.3000, -0.3390],
+        [-0.2177,  0.1816,  0.4152, -0.1029],
+        [ 0.3742, -0.0806,  0.0529,  0.4527]], requires_grad=True), Parameter containing:
+tensor([-0.4638, -0.3148, -0.1266], requires_grad=True)]
+Epoch    0/1000 Cost: 2.256626
+Epoch  100/1000 Cost: 0.643801
+Epoch  200/1000 Cost: 0.560924
+Epoch  300/1000 Cost: 0.506655
+Epoch  400/1000 Cost: 0.462380
+Epoch  500/1000 Cost: 0.422981
+Epoch  600/1000 Cost: 0.386127
+Epoch  700/1000 Cost: 0.350313
+Epoch  800/1000 Cost: 0.314385
+Epoch  900/1000 Cost: 0.277837
+Epoch 1000/1000 Cost: 0.246133
+
+종료 코드 0(으)로 완료된 프로세스
