@@ -24,7 +24,8 @@ def cross_entropy_error(y, t):
 
 print("교차 엔트로피 오차 계산")
 print(cross_entropy_error(y_pred, y_real))
-print(-(np.log2(0.001 + 1e-7)*0 + np.log2(1-0.001 + 1e-7) * (1-0) + np.log2(0.9 + 1e-7)*0 + np.log2(1-0.9 + 1e-7)*(1-0) + np.log2(0.001 + 1e-7)*0 + np.log2(1-0.001 + 1e-7) * (1-0) + np.log2(0.098+1e-7)*1 + np.log2(1-0.098 + 1e-7)*(1-1)))
+print(-(np.log2(0.001 + 1e-7)*0 + np.log2(1-0.001 + 1e-7) * (1-0) + np.log2(0.9 + 1e-7)*0 + np.log2(1-0.9 + 1e-7)*(1-0)
+        + np.log2(0.001 + 1e-7)*0 + np.log2(1-0.001 + 1e-7) * (1-0) + np.log2(0.098+1e-7)*1 + np.log2(1-0.098 + 1e-7)*(1-1)))
 
 
 # 로그우도 계산
